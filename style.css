@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --text-color : #fff;
+    --font-color : #385F96;
+    --background-color : #385F96;
+    --hover-background : #44D1D9;
+    --hover-color : #000;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+.container {
+    width: 1280px;
+    margin: auto;
+}
+.about-main {
+    display: flex;
+    margin: 50px 0px;
+    padding: 16px 156px;
+}
+.about-content {
+    width: 50%;
+}
+.about-content-box {
+    width: 518px;
+    margin-top: 60px;
+}
+.about-heading {
+    width: 518px;
+    margin: auto;
+}
+.about-heading::before {
+    content: "";
+    background: url(image\ 4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 179px;
+    height: 179px;
+    display: block;
+    margin: -100px -80px;
+}
+.about-heading h1 {
+    color: var(--font-color);
+}
+.about-details {
+    width: 493px;
+    margin: auto;
+}
+.about-details p {
+    margin-left: -12px;
+}
+.about-btn {
+    width: 144px;
+}
+.about-btn button {
+    margin: 40px 0px;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 30px;
+    background: var(--background-color);
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Poppins;
+    transition: .5s;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.about-btn button:hover {
+    background: var(--hover-background);
+    color: var(--hover-color);
+}
+.about-image {
+    width: 50%;
+}
+.about-image img {
+    width: 400px;
+    float: right;
+}
+.team-main {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 50px 0px;
+    padding: 16px 156px;
+}
+.team-content {
+    width: 50%;
+}
+.team-heading {
+    width: 513px;
+}
+.team-heading::before {
+    content: "";
+    width: 80px;
+    border-top: 5px solid #44D1D9;
+    display: block;
+}
+.team-heading h2 {
+    color: var(--font-color);
+}
+.team-details {
+    width: 493px;
+    margin: auto;
+}
+
+.team-btn {
+    width: 144px;
+}
+.team-btn button {
+    margin: 25px 0px;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 30px;
+    background: var(--background-color);
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Poppins;
+    transition: .5s;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.team-btn button:hover {
+    background: var(--hover-background);
+    color: var(--hover-color);
+}
+.team-image {
+    width: 50%;
+}
+.team-image img {
+    width: 400px;
+    float: left;
+}
+.project-main {
+    display: flex;
+    margin: 50px 0px;
+    padding: 16px 156px;
+}
+.project-content {
+    width: 50%;
+}
+.project-heading {
+    width: 466px;
+    margin-top: 100px;
+}
+.project-heading::before {
+    content: "";
+    background: url(image\ 4.png);
+    background-size: contain;
+    width: 179px;
+    height: 179px;
+    display: block;
+    margin: -100px -80px;
+}
+.project-heading h2 {
+    color: var(--font-color);
+}
+.contact-btn {
+    width: 146px;
+}
+.contact-btn button {
+    margin: 25px 0px;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 30px;
+    background: var(--background-color);
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Poppins;
+    transition: .5s;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.contact-btn button:hover {
+    background: var(--hover-background);
+    color: var(--hover-color);
+}
+.project-image {
+    width: 50%;
+}
+.project-image img {
+    width: 400px;
+    float: right;
+}
+footer {
+    background: var(--background-color);
+    color: var(--text-color);
+}
+footer p {
+    padding: 15px;
+    width: 258px;
+    text-align: center;
+    margin: auto;
+}
